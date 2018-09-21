@@ -2,7 +2,7 @@
   "name": "Test",
   "description": "Test",
   "version": "0.0.0",
-  "main": "python audio.py",
+  "main": "audio.py",
   "scripts": {
     "start": "python audio.py"
   },
