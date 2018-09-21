@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const YouTube = require('simple-youtube-api');
+const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('./config');
 const ytdl = require('ytdl-core');
 
 const client = new Client({ disableEveryone: true });
