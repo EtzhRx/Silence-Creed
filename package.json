@@ -2,7 +2,7 @@
   "name": "Test",
   "description": "Test",
   "version": "0.0.0",
-  "main": "python audio.py",
+  "main": "node bot.js",
   "scripts": {
     "start": "python audio.py"
   },
