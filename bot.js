@@ -16,9 +16,11 @@ client.on("message", (message) => {
     message.channel.send(" https://discord.gg/Ppg8rAR ");
   }
    
-  if (message.content.startsWith(prefix + "image")) {
-   message.channel.send("My Bot's message", {files: ["https://random.cat/"]});
+  if (message.content.startsWith(prefix + "image1")) {
+   message.channel.send("https://random.cat/");
   }
+  
+  
  
 });
 
