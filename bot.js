@@ -22,3 +22,24 @@ client.on("message", (message) => {
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
+
+
+//random image
+var Discord = require('discord.js');
+var bot = new Discord.Client();
+
+bot.on('message', message => {
+    var prefix = '!'
+    var msg = message.content;
+
+    if (msg === prefix + 'image') {
+        message.channel.send('Message that goes above image', {
+            files: [
+                "./image-to-send.png"
+            ]
+        });
+    }
+});
+
+bot.login('TOKEN');
+shareimprove this answer
