@@ -17,7 +17,7 @@ client.on("message", (message) => {
   }
    
   if (message.content.startsWith(prefix + "image")) {
-   message.channel.send("My Bot's message", {files: ["https://i.imgur.com/XxxXxXX.jpg"]});
+   message.channel.send("My Bot's message", {files: ["https://loremflickr.com/320/240"]});
   }
  
 });
