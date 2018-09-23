@@ -26,8 +26,7 @@ client.on("message", (message) => {
 `- Pinterest` 
 `- Date and Time`
 `- Fanspage-facebook` `( www.facebook.com/SilenceCreed ) `
-https://discord.gg/Ppg8rAR
-");
+https://discord.gg/Ppg8rAR ");
   }
    
   if (message.content.startsWith(prefix + "image")) {
