@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-
-
+ 
 // Set the prefix
 let prefix = "sc ";
 client.on("message", (message) => {
@@ -12,17 +11,14 @@ client.on("message", (message) => {
     message.channel.send("ig: _bagus.setiawan follow ya :)");
   } else
    
-  if (message.content.startsWith(prefix + "image2")) {
-    message.channel.send(" {files: ["random.cat" + ".png"]");
-  } 
+  if (message.content.startsWith(prefix + "p")) {
+    message.channel.send("gak bisa play music aowkowkowkook");
+  }
    
-  if (message.content.startsWith(prefix + "image1")) {
-   message.channel.send("https://random.cat/");
-  } 
-  
- 
+  if (message.content.startsWith(prefix + "play")) {
+    message.channel.send("gak bisa play music aowkowkowkook");
+  }
 });
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
-
