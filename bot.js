@@ -17,7 +17,7 @@ client.on("message", (message) => {
   }
    
   if (message.content.startsWith(prefix + "image")) {
-   message.channel.send("My Bot's message", {files: ["https://random.cat/meow"]});
+   message.channel.send("My Bot's message", {files: ["https://random.cat/"]});
   }
  
 });
