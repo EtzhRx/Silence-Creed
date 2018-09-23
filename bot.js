@@ -13,8 +13,7 @@ client.on("message", (message) => {
   } else
    
   if (message.content.startsWith(prefix + "help")) {
-    message.channel.send("
-**__SILENCE CREED__**
+    message.channel.send("**__SILENCE CREED__**
 **LMAO**
 `- music Bot `
 `- meme Bot `
