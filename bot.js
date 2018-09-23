@@ -14,4 +14,4 @@ music(Bot, {
 	clearInvoker: true, // If permissions applicable, allow the bot to delete the messages that invoke it (start with prefix)
     channel: 'music'   // Name of voice channel to join. If omitted, will instead join user's voice channel.
 });
-Bot.login(NDkwNDAxMjY2Njg2NjIzNzQ0.DoYz8g.Z5uFvVSIMyCvKFuL-3Row2vfKT0);
+Bot.login(process.env.BOT_TOKEN);
