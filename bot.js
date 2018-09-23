@@ -7,8 +7,8 @@ client.on("message", (message) => {
   // Exit and stop if the prefix is not there or if user is a bot
   if (!message.content.startsWith(prefix) || message.author.bot) return;
  
-  if (message.content.startsWith(prefix + "ping")) {
-    message.channel.send("pong!");
+  if (message.content.startsWith(prefix + "sc")) {
+    message.channel.send("Test!");
   } else
   if (message.content.startsWith(prefix + "foo")) {
     message.channel.send("bar!");
