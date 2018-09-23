@@ -13,19 +13,7 @@ client.on("message", (message) => {
   } else
    
   if (message.content.startsWith(prefix + "help")) {
-    message.channel.send("**__SILENCE CREED__**
-**LMAO**
-`- music Bot `
-`- meme Bot `
-`- looking for new staff`
-**__Bot Auto Upload__**
-`- Spotify music`
-`- Youtube Channel `
-`- Giphy`
-`- Pinterest` 
-`- Date and Time`
-`- Fanspage-facebook` `( www.facebook.com/SilenceCreed ) `
-https://discord.gg/Ppg8rAR ");
+    message.channel.send(" https://discord.gg/Ppg8rAR ");
   }
    
   if (message.content.startsWith(prefix + "image")) {
