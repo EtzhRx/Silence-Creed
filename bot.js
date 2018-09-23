@@ -13,13 +13,12 @@ client.on("message", (message) => {
   } else
    
   if (message.content.startsWith(prefix + "image2")) {
-    message.channel.send(" https://media.giphy.com/media/EsD48Gp7C21OM/giphy.gif ");
+    message.channel.send(" {files: ["random.cat" + ".png"]");
   } 
    
   if (message.content.startsWith(prefix + "image1")) {
    message.channel.send("https://random.cat/");
   } 
-  
   
  
 });
