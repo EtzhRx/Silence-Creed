@@ -5,7 +5,7 @@ var Events = Discordie.Events;
 var client = new Discordie();
 
 client.connect({
-token: 'Your Bot Token'
+token: 'NDkwNDAxMjY2Njg2NjIzNzQ0.DoYz8g.Z5uFvVSIMyCvKFuL-3Row2vfKT0'
 })
 
 client.Dispatcher.on(Events.GATEWAY_READY, e => {
