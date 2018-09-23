@@ -1,17 +1,24 @@
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const client = new Discord.Client();
-const music = require('discord.js-music-v11');
-const Bot = new Discord.Client();
-
-Bot.on('ready', () => {
-    console.log(`[Start] ${new Date()}`);
+ 
+// Set the prefix
+let prefix = "!sc";
+client.on("message", (message) => {
+  // Exit and stop if the prefix is not there or if user is a bot
+  if (!message.content.startsWith(prefix) || message.author.bot) return;
+ 
+  if (message.content.startsWith(prefix + "skitter")) {
+    message.channel.send("ig: _bagus.setiawan follow ya :)");
+  } else
+   
+  if (message.content.startsWith(prefix + "p")) {
+    message.channel.send("gak bisa play music aowkowkowkook");
+  }
+   
+  if (message.content.startsWith(prefix + "play")) {
+    message.channel.send("gak bisa play music aowkowkowkook");
+  }
 });
 
-music(Bot, {
-	prefix: '-',       // Prefix of '-'.
-	global: false,     // Server-specific queues.
-	maxQueueSize: 10,  // Maximum queue size of 10.
-	clearInvoker: true, // If permissions applicable, allow the bot to delete the messages that invoke it (start with prefix)
-    channel: 'music'   // Name of voice channel to join. If omitted, will instead join user's voice channel.
-});
+// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
