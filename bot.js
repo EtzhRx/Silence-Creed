@@ -12,8 +12,23 @@ client.on("message", (message) => {
     message.channel.send("ig: _bagus.setiawan follow ya :)");
   } else
    
-  if (message.content.startsWith(prefix + "p")) {
-    message.channel.send("gak bisa play music aowkowkowkook");
+  if (message.content.startsWith(prefix + "help")) {
+    message.channel.send
+("
+**__SILENCE CREED__**
+**LMAO**
+`- music Bot `
+`- meme Bot `
+`- looking for new staff`
+**__Bot Auto Upload__**
+`- Spotify music`
+`- Youtube Channel `
+`- Giphy`
+`- Pinterest` 
+`- Date and Time`
+`- Fanspage-facebook` `( www.facebook.com/SilenceCreed ) `
+https://discord.gg/Ppg8rAR
+");
   }
    
   if (message.content.startsWith(prefix + "image")) {
