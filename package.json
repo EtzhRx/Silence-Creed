@@ -1,15 +1,13 @@
 {
-"name": "discordapp",
-"version": "1.0.0",
-"description": "A discord Bot",
-"main": "index.js",
-"scripts": {
-"start": "node index.js",
-"test": "echo "Error: no test specified" && exit 1"
-},
-"author": "",
-"license": "ISC",
-"dependencies": {
-"discordie": "^0.11.0"
-}
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
 }
