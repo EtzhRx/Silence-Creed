@@ -12,8 +12,8 @@ client.on("message", (message) => {
     message.channel.send("ig: _bagus.setiawan follow ya :)");
   } else
    
-  if (message.content.startsWith(prefix + "help")) {
-    message.channel.send(" https://discord.gg/Ppg8rAR ");
+  if (message.content.startsWith(prefix + "image2")) {
+    message.channel.send(" https://media.giphy.com/media/EsD48Gp7C21OM/giphy.gif ");
   }
    
   if (message.content.startsWith(prefix + "image1")) {
