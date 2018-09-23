@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const bot = new Discord.Client( 
+
+
 // Set the prefix
 let prefix = "!sc";
 client.on("message", (message) => {
