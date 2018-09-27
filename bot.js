@@ -18,13 +18,11 @@ client.on("message", (message) => {
  if (message.content.startsWith(prefix + "skip")) {
     message.channel.send("Skip.....");
   }
+ 
  if (message.content.startsWith(prefix + "s")) {
     message.channel.send("Skip.....");
   }
    
-  if (message.content.startsWith(prefix + ":v")) {
-    message.channel.send(":'V");
-  }
 });
 
 // THIS  MUST  BE  THIS  WAY
