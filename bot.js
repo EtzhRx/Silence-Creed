@@ -5,12 +5,7 @@ const client = new Discord.Client();
 let prefix = "!";
 client.on("message", (message) => {
   // Exit and stop if the prefix is not there or if user is a bot
-  if (!message.content.startsWith(prefix) || message.author.bot) return;
- 
-  if (message.content.startsWith(prefix + "skip")) {
-    message.channel.send(".......");
-  } else
-   
+
   if (message.content.startsWith(prefix + "p")) {
     message.channel.send(".......");
   }
