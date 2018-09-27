@@ -7,16 +7,16 @@ client.on("message", (message) => {
   // Exit and stop if the prefix is not there or if user is a bot
   if (!message.content.startsWith(prefix) || message.author.bot) return;
  
-  if (message.content.startsWith(prefix + "play")) {
-    message.channel.send("Playing");
+  if (message.content.startsWith(prefix + "skitter")) {
+    message.channel.send("ig: _bagus.setiawan follow ya :)");
   } else
    
   if (message.content.startsWith(prefix + "p")) {
-    message.channel.send("Playing");
+    message.channel.send("gak bisa play music aowkowkowkook");
   }
    
-  if (message.content.startsWith(prefix + "s")) {
-    message.channel.send("Skip");
+  if (message.content.startsWith(prefix + "play")) {
+    message.channel.send("gak bisa play music aowkowkowkook");
   }
 });
 
