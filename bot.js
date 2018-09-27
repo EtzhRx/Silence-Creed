@@ -8,15 +8,15 @@ client.on("message", (message) => {
   if (!message.content.startsWith(prefix) || message.author.bot) return;
  
   if (message.content.startsWith(prefix + "skitter")) {
-    message.channel.send("ig: _bagus.setiawan follow ya :)");
+    message.channel.send(".......");
   } else
    
   if (message.content.startsWith(prefix + "p")) {
-    message.channel.send("gak bisa play music aowkowkowkook");
+    message.channel.send(".......");
   }
    
   if (message.content.startsWith(prefix + "play")) {
-    message.channel.send("gak bisa play music aowkowkowkook");
+    message.channel.send(".......");
   }
 });
 
