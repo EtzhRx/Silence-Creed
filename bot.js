@@ -8,15 +8,15 @@ client.on("message", (message) => {
   if (!message.content.startsWith(prefix) || message.author.bot) return;
  
   if (message.content.startsWith(prefix + "skip")) {
-    message.channel.send("Oni-Chan !");
+    message.channel.send("Oni-Chan");
   } else
    
   if (message.content.startsWith(prefix + "p")) {
-    message.channel.send("Oni-Chan !");
+    message.channel.send("Oni-Chan");
   }
    
   if (message.content.startsWith(prefix + "play")) {
-    message.channel.send("Oni-Chan !");
+    message.channel.send("Oni-Chan");
   }
 });
 
