@@ -20,12 +20,14 @@ client.on("message", (message) => {
   }
  
  // Set the voice
+ let prefix = ", ";
+ client.login('NTA4NTgzMjU0NTM0NzgyOTgw.DsCy2Q.O1Un7IJueDN2GJ2umrtRPTtPI3I');
  client.on('message', async message => {
   // Voice only works in guilds, if the message does not come from a guild,
   // we ignore it
   if (!message.guild) return;
 
-  if (message.content === '+join') {
+  if (message.content === 'join') {
     // Only try to join the sender's voice channel if they are in one themselves
     if (message.member.voice.channel) {
       const connection = await message.member.voice.channel.join();
