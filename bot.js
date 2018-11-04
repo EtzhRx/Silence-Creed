@@ -19,14 +19,6 @@ client.on("message", (message) => {
     message.channel.send("https://www.facebook.com/Offc-immortal-Team-724495147912985/?modal=admin_todo_tour(edited)");
   }
 
-  if (message.content.startsWith(prefix + "join")) {
-    if (message.member.voice.channel) {
-      const connection = await message.member.voice.channel.join();
-    } else {
-      message.reply('You need to join a voice channel first!');
-    }
-  }
- 
 });
 
 // THIS  MUST  BE  THIS  WAY
