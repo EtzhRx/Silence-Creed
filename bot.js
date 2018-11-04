@@ -11,12 +11,12 @@ client.on("message", (message) => {
     message.channel.send("https://instagram.com/official_immortal_gaming");
   } else
    
-  if (message.content.startsWith(prefix + "p")) {
-    message.channel.send("Oni-Chan");
+  if (message.content.startsWith(prefix + "youtube")) {
+    message.channel.send("https://www.youtube.com/channel/UC4KN0anLirlTsn95Ugrroeg");
   }
    
-  if (message.content.startsWith(prefix + "play")) {
-    message.channel.send("Oni-Chan");
+  if (message.content.startsWith(prefix + "facebook")) {
+    message.channel.send("https://www.facebook.com/Offc-immortal-Team-724495147912985/?modal=admin_todo_tour(edited)");
   }
 });
 
