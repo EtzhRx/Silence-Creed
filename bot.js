@@ -18,17 +18,8 @@ client.on("message", (message) => {
   if (message.content.startsWith(prefix + "facebook")) {
     message.channel.send("https://www.facebook.com/Offc-immortal-Team-724495147912985/?modal=admin_todo_tour(edited)");
   }
- 
- // Set the voice
- let prefix = ", ";
- client.login('NTA4NTgzMjU0NTM0NzgyOTgw.DsCy2Q.O1Un7IJueDN2GJ2umrtRPTtPI3I');
- client.on('message', async message => {
-  // Voice only works in guilds, if the message does not come from a guild,
-  // we ignore it
-  if (!message.guild) return;
 
-  if (message.content === 'join') {
-    // Only try to join the sender's voice channel if they are in one themselves
+  if (message.content.startsWith(prefix + "join")) {
     if (message.member.voice.channel) {
       const connection = await message.member.voice.channel.join();
     } else {
